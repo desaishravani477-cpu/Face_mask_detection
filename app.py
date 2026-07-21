@@ -9,11 +9,9 @@ from tensorflow.keras.models import load_model
 # -----------------------------
 st.set_page_config(page_title="Face Mask Detection", page_icon="😷")
 
-st.title("😷 Face Mask Detection")
+st.title("😷 Face Mask Detection 😷")
 
-# -----------------------------
-# Load Model
-# -----------------------------
+
 @st.cache_resource
 def load_my_model():
       return load_model("mask_final.keras")
