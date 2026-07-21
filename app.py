@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 # Page Config
 # -----------------------------
 st.set_page_config(page_title="Face Mask Detection", page_icon="😷")
-
+s
 st.title("😷 Face Mask Detection 😷")
 
 
